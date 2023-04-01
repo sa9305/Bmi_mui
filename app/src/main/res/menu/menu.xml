@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/aboutDeveloper">
+        <item
+            android:id="@+id/about_developer"
+            android:title="About Developer" />
+    </group>
+
+    <group android:id="@+id/aboutBmi">
+        <item
+            android:id="@+id/about_bmi"
+            android:title="What is BMI ? *" />
+
+    </group>
+    <group android:id="@+id/bmiChart">
+        <item
+            android:id="@+id/bmi_chart"
+            android:title="BMI Chart" />
+    </group>
+    <group android:id="@+id/rate">
+        <item
+            android:id="@+id/rate_me"
+            android:title="Rate Us" />
+    </group>
+
+    <group android:id="@+id/contact">
+        <item
+            android:id="@+id/contact_us"
+            android:title="Contacts Us*">
+            <menu>
+                <group android:id="@+id/dials">
+                    <item
+                        android:id="@+id/dial"
+                        android:title="Dial" />
+                </group>
+                <group android:id="@+id/calls">
+                    <item
+                        android:id="@+id/Call"
+                        android:title="Call" />
+                </group>
+
+                <group android:id="@+id/mail">
+                    <item
+                        android:id="@+id/email"
+                        android:title="Email"
+
+                        />
+                </group>
+            </menu>
+
+
+        </item>
+    </group>
+
+</menu>
